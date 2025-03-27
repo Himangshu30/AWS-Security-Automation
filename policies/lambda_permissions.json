@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:UpdateUser",
+                "ec2:CreateSecurityGroup",
+                "ec2:AuthorizeSecurityGroupEgress",
+                "s3:PutObject"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "guardduty:GetFindings",
+            "Resource": "*"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "status": "success",
+    "total_entries": 5000,
+    "anomalies_detected": 12,
+    "processed_data": [
+        {
+            "id": 101,
+            "ip_address": "192.168.1.10",
+            "request_type": "POST",
+            "url": "/api/login",
+            "response_code": 200,
+            "status": "valid"
+        },
+        {
+            "id": 102,
+            "ip_address": "203.0.113.45",
+            "request_type": "GET",
+            "url": "/admin",
+            "response_code": 403,
+            "status": "anomaly_detected"
+        },
+        {
+            "id": 103,
+            "ip_address": "172.16.0.22",
+            "request_type": "POST",
+            "url": "/api/upload",
+            "response_code": 500,
+            "status": "anomaly_detected"
+        },
+        {
+            "id": 104,
+            "ip_address": "10.0.0.5",
+            "request_type": "GET",
+            "url": "/dashboard",
+            "response_code": 200,
+            "status": "valid"
+        },
+        {
+            "id": 105,
+            "ip_address": "198.51.100.99",
+            "request_type": "POST",
+            "url": "/api/payment",
+            "response_code": 302,
+            "status": "valid"
+        }
+    ],
+    "execution_time": "3.5 seconds"
+}
+
