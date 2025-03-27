@@ -1,4 +1,4 @@
-# AWS-Security-Automation
+
 # AWS Security Automation
 
 ## Overview
